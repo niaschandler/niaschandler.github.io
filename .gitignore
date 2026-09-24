@@ -1,0 +1,18 @@
+# Jekyll output and local preview state
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+
+# Local tooling
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Replit and conversation-local state
+.cache/
+.local/
+.conversation/

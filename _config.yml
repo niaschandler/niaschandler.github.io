@@ -1,0 +1,27 @@
+title: "Nia Chandler — Operations Readout"
+description: "A personal professional portfolio for Nia Chandler."
+url: "https://niaschandler.github.io"
+baseurl: ""
+lang: "en-US"
+timezone: "America/Los_Angeles"
+github_username: "niaschandler"
+
+markdown: kramdown
+permalink: pretty
+strict_front_matter: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      image: "/assets/favicon.svg"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
