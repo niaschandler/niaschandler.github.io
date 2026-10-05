@@ -778,14 +778,24 @@ code {
   }
 
   .record {
-    grid-template-columns: 2.6rem 1fr;
+    position: relative;
+    grid-template-columns: 2.6rem minmax(0, 1fr);
     gap: 0.85rem;
   }
 
-  .record-mark {
+  .record-body {
     grid-column: 2;
-    grid-row: 1;
-    justify-self: start;
+    min-width: 0;
+  }
+
+  .record-type {
+    padding-right: 4rem;
+  }
+
+  .record-mark {
+    position: absolute;
+    top: 1.7rem;
+    right: 0;
   }
 
   .contact-card {
