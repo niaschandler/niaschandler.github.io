@@ -1,0 +1,1 @@
+- [Nested preview sandbox setup](nested-preview-sandbox.md) — keep npm metadata inside the artifact; root package files can disrupt Jekyll file watching.
