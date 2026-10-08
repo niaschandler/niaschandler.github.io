@@ -77,9 +77,9 @@ export function Draft() {
 
               <div className="prose draft-prose">
                 <p className="draft-opening">
-                  I trained in the Supply Corps and built my career around
-                  aviation supply and fuels. Good work, to me, is careful
-                  preparation in service of the people who depend on it.
+                  My career in the Supply Corps has focused on aviation supply
+                  and fuels. To me, good work means careful preparation in
+                  service of the people who depend on it.
                 </p>
 
                 <section className="draft-context" aria-labelledby="context-heading">
