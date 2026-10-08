@@ -4,3 +4,6 @@
 <meta name="theme-color" content="#f4f0f8">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% if page.stylesheet %}
+<link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
+{% endif %}
