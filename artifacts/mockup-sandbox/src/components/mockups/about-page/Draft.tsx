@@ -1,4 +1,5 @@
 import "./_group.css";
+import "./Draft.css";
 
 export function Draft() {
   const toggleTheme = () => {
@@ -11,7 +12,7 @@ export function Draft() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen about-draft">
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>
@@ -51,8 +52,8 @@ export function Draft() {
           <div className="page-shell">
             <div className="page-intro">
               <p className="eyebrow">
-                <span className="status-dot" aria-hidden="true" /> Personnel
-                file / profile
+                <span className="status-dot" aria-hidden="true" /> Work,
+                service &amp; the person behind it
               </p>
               <h1>
                 About the
@@ -60,45 +61,57 @@ export function Draft() {
                 <em>operator</em>
               </h1>
               <p className="lede">
-                Aviation supply and fuels experience shaped by environments
-                where preparation, accountability, and clear handoffs matter.
+                My work has taken me from aviation supply to advocacy and
+                community service. This is a brief view of the work—and the
+                interests I carry beyond it.
               </p>
             </div>
 
             <div className="content-grid">
               <aside className="margin-note" aria-label="Profile metadata">
-                <span className="panel-label">FILE TYPE</span>
-                <strong>Professional profile</strong>
-                <span className="panel-label">ACCESS</span>
-                <strong>Public summary</strong>
+                <span className="panel-label">A THROUGH-LINE</span>
+                <strong>Preparation, care, and showing up for people.</strong>
+                <span className="panel-label">IN THIS PROFILE</span>
+                <strong>Service · community · life beyond work</strong>
               </aside>
 
-              <div className="prose">
-                <p>
-                  My work has centered on aviation supply, fuels, and the
-                  day-to-day systems that support mission-ready teams. I have
-                  served in roles at sea and ashore, where preparation and
-                  reliable handoffs matter.
+              <div className="prose draft-prose">
+                <p className="draft-opening">
+                  I trained in the Supply Corps and built my career around
+                  aviation supply and fuels. Good work, to me, is careful
+                  preparation in service of the people who depend on it.
                 </p>
-                <p>
-                  Since August 2020, I have served as a Department of
-                  Defense-credentialed Sexual Assault Prevention and Response
-                  (SAPR) Victim Advocate. I have also volunteered as a youth
-                  swim coach and coordinated Family Readiness.
-                </p>
-                <p>
-                  Away from aviation work, I have participated in the Naval
-                  Academy Glee Club and admissions outreach.
-                </p>
-                <div className="callout">
-                  <span className="callout-mark" aria-hidden="true">
-                    +
-                  </span>
-                  <p>
-                    <strong>Beyond the role:</strong> I speak French fluently,
-                    and enjoy reading and collecting books.
-                  </p>
-                </div>
+
+                <section className="draft-context" aria-labelledby="context-heading">
+                  <div className="draft-context-heading">
+                    <span className="panel-label">A LITTLE MORE CONTEXT</span>
+                    <h2 id="context-heading">The work, and the life around it</h2>
+                  </div>
+
+                  <div className="draft-entry">
+                    <span className="draft-entry-label">Advocacy</span>
+                    <p>
+                      Since August 2020, I have served as a Department of
+                      Defense-credentialed Sexual Assault Prevention and Response
+                      (SAPR) Victim Advocate. I have also supervised fellow advocates.
+                    </p>
+                  </div>
+                  <div className="draft-entry">
+                    <span className="draft-entry-label">Community</span>
+                    <p>
+                      I have coordinated the Family Readiness Program, coached youth
+                      swimmers, and taken part in Naval Academy Glee Club
+                      activities and admissions outreach. Volunteer service
+                      has also earned me service medals.
+                    </p>
+                  </div>
+                  <div className="draft-entry draft-entry-personal">
+                    <span className="draft-entry-label">Off duty</span>
+                    <p>
+                      I speak French fluently, and I enjoy reading and collecting books.
+                    </p>
+                  </div>
+                </section>
               </div>
             </div>
 
