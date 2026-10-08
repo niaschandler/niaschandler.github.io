@@ -1,0 +1,111 @@
+.about-draft .page-intro {
+  max-width: 790px;
+}
+
+.about-draft .page-intro h1 {
+  max-width: 9ch;
+}
+
+.about-draft .page-intro .eyebrow {
+  max-width: 100%;
+}
+
+.about-draft .margin-note {
+  border-top-color: var(--signal);
+}
+
+.about-draft .margin-note strong {
+  max-width: 13ch;
+  line-height: 1.25;
+}
+
+.about-draft .draft-prose {
+  max-width: 47rem;
+}
+
+.about-draft .draft-opening {
+  max-width: 39rem;
+  margin-bottom: 3.3rem;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: clamp(1.55rem, 3.2vw, 2.2rem);
+  line-height: 1.18;
+}
+
+.about-draft .draft-context {
+  border-top: 1px solid var(--line-strong);
+}
+
+.about-draft .draft-context-heading {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 0.45fr) 1fr;
+  gap: 1.5rem;
+  align-items: baseline;
+  padding: 1.15rem 0 1.2rem;
+}
+
+.about-draft .draft-context-heading .panel-label {
+  margin: 0;
+}
+
+.about-draft .draft-context-heading h2 {
+  margin: 0;
+  color: var(--accent-deep);
+  font-size: clamp(1.5rem, 3vw, 2.15rem);
+  line-height: 1.08;
+}
+
+.about-draft .draft-entry {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 0.45fr) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  border-top: 1px solid var(--line);
+  padding: 1.25rem 0 1.35rem;
+}
+
+.about-draft .draft-entry-label {
+  padding-top: 0.15rem;
+  color: var(--accent-deep);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.about-draft .draft-entry p {
+  max-width: 36rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.about-draft .draft-entry-personal {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--surface-strong) 62%, transparent));
+}
+
+@media (max-width: 620px) {
+  .about-draft .draft-opening {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-draft .draft-context-heading,
+  .about-draft .draft-entry {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .about-draft .draft-context-heading {
+    padding-top: 1rem;
+  }
+
+  .about-draft .draft-entry {
+    padding: 1rem 0 1.1rem;
+  }
+
+  .about-draft .draft-entry-personal {
+    padding-left: 0.85rem;
+  }
+}
