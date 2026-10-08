@@ -13,6 +13,7 @@ strict_front_matter: true
 # Keep the working change plan out of the published website.
 exclude:
   - Change1.md
+  - Change2.md
 
 plugins:
   - jekyll-seo-tag
